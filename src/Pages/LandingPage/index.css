@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: chiller;
+  src: url("../../../public/assets/fonts/CHILLER.TTF");
+}
+@font-face {
+  font-family: mont-regular;
+  src: url("../../../public/assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: mont-bold;
+  src: url("../../../public/assets/fonts/Montserrat-Bold.ttf");
+}
+body {
+  background: #000;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  margin: 0 -15px;
+}
+.col {
+  padding: 0 15px;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.spacing {
+  padding: 50px 0;
+}
+.border-bottom {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+h1 {
+  font-size: 75px;
+  line-height: 90px;
+}
+h2 {
+  font-size: 35px;
+  line-height: 42px;
+}
+header a,
+.banner-detail p,
+.detail-content p,
+.roadmap-block p,
+.team-block .heading p {
+  font-family: "mont-regular";
+}
+.social-links p,
+.roadmap-block ul li .round-content,
+.team-block .team-content-block .team-content .team-text p {
+  font-family: "mont-bold";
+}
+h1,
+h2,
+.copy-right p {
+  font-family: "chiller";
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "mont-bold";
+}
+.custom-link {
+  background: #f6090b;
+  padding: 17px 70px;
+}
+.custom-section {
+  position: relative;
+}
+.custom-section .custom-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1763px;
+  z-index: -1;
+}
+@media screen and (max-width: 992px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .col-3 {
+    width: 100%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .spacing {
+    padding: 15px 0;
+  }
+}

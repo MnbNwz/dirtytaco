@@ -1,0 +1,15 @@
+.footer-content {
+}
+.copy-right {
+  padding: 20px 0;
+  p {
+    color: #fff;
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-logo img {
+    width: 100%;
+  }
+}

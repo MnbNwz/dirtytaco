@@ -1,0 +1,28 @@
+.detail-block {
+  .detail-content {
+    text-align: left;
+    h1 {
+      color: #fff;
+    }
+    p {
+      padding: 50px 0 50px 0;
+      color: #fff;
+      line-height: 39px;
+    }
+    a {
+      border-radius: 23px;
+      -webkit-border-radius: 23px;
+      -moz-border-radius: 23px;
+      -ms-border-radius: 23px;
+      -o-border-radius: 23px;
+    }
+  }
+  .detail-img {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    img {
+      width: 100%;
+    }
+  }
+}
